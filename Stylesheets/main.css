@@ -1,0 +1,294 @@
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  margin: 0;
+}
+
+.title-name {
+  color: #6f90b1;
+}
+
+.title-undertext {
+  margin: 0;
+}
+
+.btn-Over {
+  margin-top: 10px !important;
+  padding: 10px 15px !important;
+  color: white !important;
+  background-color: #6f90b1 !important;
+  border-color: #6f90b1 !important;
+  transition: transform 0.3s ease;
+}
+
+.btn-Over:hover {
+  color: white !important;
+  background-color: #4a6e8c !important;
+  border-color: #4a6e8c !important;
+  transform: scale(1.04);
+}
+
+.about-background {
+  padding: 5% 0;
+  background-color: #6f90b1;
+  color: white;
+}
+
+.white-hr {
+  color: white !important;
+  background-color: white !important;
+  height: 2px !important;
+  margin: 10px 0 !important;
+  opacity: 1 !important;
+}
+
+.black-hr {
+  color: black !important;
+  background-color: black !important;
+  height: 2px !important;
+  margin: 10px 0 !important;
+  opacity: 1 !important;
+}
+
+.about-content {
+  padding: 2% 15% 0 15%;
+}
+
+.about-image-card {
+  padding: 2%;
+}
+
+.card-image-background {
+  height: 400px;
+  border-radius: 10px;
+}
+
+.top-background {
+  padding: 10% 0;
+}
+
+.about-second-title {
+  margin-top: 25px;
+}
+
+.skills-skilltree {
+  padding: 2%;
+}
+
+.skills-icons {
+  width: 100px;
+}
+
+.skills {
+  padding: 3% 0;
+}
+
+.contact-card {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  padding: 15%;
+  border: 3px solid #6f90b1;
+  transition: border 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  border: 4px solid #4a6e8c;
+  transform: scale(1.1);
+}
+
+.contact-card:hover .bi {
+  color: #4a6e8c;
+}
+
+footer {
+  background-color: #333335;
+  padding: 5% 5% 0.5% 5%;
+  color: white;
+}
+
+.projects-images {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.projects-images:hover {
+  transform: scale(1.04);
+}
+
+#lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#lightbox-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.contact-icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.page-section {
+  padding: 4% 0;
+}
+
+.projecten-content {
+  margin-top: 40px !important;
+}
+
+.contact-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-card-outer {
+  padding: 4%;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.contact-title {
+  margin-left: 10px;
+}
+
+.contact-card-inner {
+  display: flex;
+  align-items: center;
+}
+
+.contact-card-image {
+  width: 50px;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  color: #6f90b1;
+}
+
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.technologies-header {
+  margin-right: 10px;
+}
+
+.technologie {
+  margin: 4px 8px;
+  padding: 3px 8px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#back-to-top {
+  display: none;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: white;
+  border: 4px solid #4a6e8c;
+  color: #fff;
+  text-decoration: none;
+}
+
+#back-to-top:hover {
+  border: 4px solid #3e5b74;
+  color: rgb(201, 201, 201);
+  text-decoration: none;
+}
+
+#back-to-top.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#back-to-top .bi {
+  color: #4a6e8c;
+  font-size: 20px;
+}
+
+.btn-site {
+  margin-top: 10px !important;
+  padding: 10px 15px !important;
+  color: black !important;
+  background-color: white !important;
+  border-color: white !important;
+  transition: transform 0.3s ease;
+}
+
+.btn-site:hover {
+  color: black !important;
+  background-color: rgb(201, 201, 201) !important;
+  border-color: rgb(201, 201, 201) !important;
+  transform: scale(1.04);
+}
+
+.projecten-subtitle {
+  opacity: 0.8;
+}
+
+.about-subtext {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.about-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.desktop-view {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-view {
+    display: none;
+  }
+
+  .desktop-view {
+    display: block;
+  }
+}
